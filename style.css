@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.top{
+	background: #3b5998;
+	overflow: hidden;
+}
+div{
+	display: block;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box{
+	float: left;
+	display: block;
+}
+p{
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start:0;
+	-webkit-margin-end:0;
+}
+.box p b{
+	font-family: 'Concert One' , cursive;
+	color:white;
+	font-size: 50px;
+}
+strong, b{
+	font-weight: bold;
+}
+.login{
+	float: right;
+}
+.login form{
+	margin: 20px auto;
+	padding: 0;
+}
+form{
+	display: block;
+}
+table{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: grey;
+}
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+td,th {
+	display: table-cell;
+	vertical-align: inherit;
+}
+.login form label{
+	color: white;
+	padding:0;
+	margin: 0;
+}
+label{
+	cursor: default;
+}
+input{
+	-webkit-appearance:textfield;
+	background-color: white;
+	user-select:text;
+	cursor:auto;
+	border-width: 2px;
+	border-style: inset;
+}
+input, textarea, select, user agent stylesheet button{
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 13.3333px Arial;
+}
+input, textarea, select, user agent stylesheet button, meter, progress{
+	-webkit-writing-mode:horizontal-tb;
+}
+.ibutton{
+	background: #3b5998;
+	color: white;
+	padding: 1px 6px;
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	box-sizing: border-box;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonface;
+	border-image: initial;
+}
+.form{
+	background: #D2D8E8;
+	overflow: hidden;
+}
+.img{
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.fb{
+	font-size: 25px;
+	color: #0E385F;
+	font-family: 'Concert One' ,cursive;
+}
+.f-b{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
